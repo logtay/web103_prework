@@ -38,6 +38,7 @@ const AddCreator = () => {
     />
 
     <label htmlFor="description">Description</label>
+    <p>Tell us a little about this creator? What makes them worth a follow?</p>
     <textarea
       id="description"
       name="description"
@@ -47,6 +48,7 @@ const AddCreator = () => {
     />
 
     <label htmlFor="imageURL">Image URL</label>
+    <p>Please enter the full image URL.</p>
     <input
       id="imageURL"
       type="text"
@@ -56,6 +58,7 @@ const AddCreator = () => {
     />
 
     <label htmlFor="url">URL</label>
+    <p>Please enter the full URL for this creator's main page.</p>
     <input
       id="url"
       type="url"

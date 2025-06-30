@@ -35,8 +35,8 @@ setCreators(data);
 
   return (
     <>
+    <Navbar />
       <div className='App'>
-        <Navbar />
        {routes}
       </div>
     </>

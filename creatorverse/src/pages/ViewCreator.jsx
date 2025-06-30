@@ -60,6 +60,7 @@ const ViewCreator = () => {
             flexWrap: "wrap",
           }}
         >
+        
           <a
             href={creator.url}
             target="_blank"

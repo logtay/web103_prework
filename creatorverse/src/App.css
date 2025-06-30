@@ -1,3 +1,30 @@
+nav.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  background-image: url('https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+nav.navbar ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+nav.navbar ul li {
+  display: inline;
+}
+nav.navbar h1 {
+  margin: 0;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
 
 main.container {
   margin-top: 2rem;
@@ -6,7 +33,6 @@ main.container {
   flex-direction: column;
   align-items: center;
 }
-
 
 main.container > article {
   max-width: 700px;
@@ -60,21 +86,10 @@ main.container footer {
   flex-wrap: wrap;
 }
 
-a[role="button"] {
-  min-width: 120px;
-  text-align: center;
-  padding: 0.5rem 1rem;
-  background-color: #eee;
-  border-radius: 0.5rem;
-  text-decoration: none;
-  color: #333;
-  transition: background-color 0.3s ease;
-  display: inline-block;
-  cursor: pointer;
-}
+
 
 a[role="button"]:hover {
-  background-color: #ddd;
+  background-color: #555;
 }
 
 .secondary {
@@ -83,17 +98,24 @@ a[role="button"]:hover {
 }
 
 form {
-  max-width: 700px;
+  max-width: 500px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: .25rem;
 }
 
 
 form label {
-  font-weight: 600;
-  margin-bottom: 0.25rem;
+  font-weight: 700px;
+  margin-bottom: -2px;
+}
+
+form p{
+  font-size: 0.875rem;
+  color: #666;
+  margin: 0.25rem 0;
+  font-style: italic;
 }
 
 
@@ -113,13 +135,13 @@ form textarea {
   resize: vertical;
 }
 
-form button {
-  padding: 0.5rem 1rem;
+ button, [role="button"] {
+  background-color: #444;
+  color: white;
   font-weight: 600;
+  padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.5rem;
-  background-color: #007bff;
-  color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -178,3 +200,10 @@ a[role="button"] {
   border-radius: 0.75rem;
   margin-bottom: 1rem;
 }
+main.container footer {
+  display: flex;
+  justify-content: center;   
+  gap: 1rem;                 
+  flex-wrap: wrap;           
+}
+
