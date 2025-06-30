@@ -36,8 +36,7 @@ const EditCreator = () => {
       })
       .eq('id', id)
       .select()
-
-        window.location - "/";
+        window.location = "/creator/" + id;
       
   }
   const deleteCreator = async () => {
