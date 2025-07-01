@@ -2,7 +2,7 @@
 
 Submitted by: **Taylor Femat**
 
-About this web app: **app description here**
+About this web app: **This app features different Instagram creators in the dog foster/adoption space. It allows users to add, edit, or delete a creator. Via the home page, the user can view all creators. From the creator's individual details page, the user can follow a link to the creators page or read their name and description. The home page is made up of cards that include a picture and description of each creator.**
 
 Time spent: **3** hours
 
